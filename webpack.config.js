@@ -4,7 +4,7 @@ var path = require('path');
 var HTMLWebpackPlugin = require('html-webpack-plugin');
 
 var BUILD_DIR = path.resolve(__dirname, 'dist');
-var APP_DIR = path.resolve(__dirname, 'src')
+var APP_DIR = path.resolve(__dirname, 'src');
 
 var config = {
   entry: APP_DIR + '/index.jsx',
