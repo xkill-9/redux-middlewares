@@ -35,8 +35,14 @@ var config = {
     })
   ],
 
+ devServer: {
+    historyApiFallback: true,
+    contentBase: './src'
+  },
+
   output: {
     path: BUILD_DIR,
+    publicPath: '/',
     filename: 'bundle.[hash].js'
   }
 };
