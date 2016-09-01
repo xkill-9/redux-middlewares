@@ -1,4 +1,4 @@
-import { renderComponent, expect } from '../utils/TestHelpers';
+import { renderComponent, expect } from './utils/TestHelpers';
 import App from './App';
 import { describe, it } from 'mocha';
 
