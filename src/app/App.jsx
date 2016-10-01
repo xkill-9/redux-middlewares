@@ -1,7 +1,12 @@
 import React from 'react';
+import users from 'users';
 
-function App() {
-  return <div>Hello World!</div>;
-}
+const { UsersList } = users;
+
+const App = () => (
+  <div>
+    <UsersList />
+  </div>
+);
 
 export default App;
